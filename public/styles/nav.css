@@ -1,0 +1,23 @@
+header {
+  min-width: 100%;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__nav-brand {
+  padding: 1.25rem 1rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 0px #6355a4, 4px 4px 0px #e89a3e, 6px 6px 0px #6355a4;
+}
+.header__nav-menu {
+  padding: 1.25rem 1rem;
+
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 2rem;
+}

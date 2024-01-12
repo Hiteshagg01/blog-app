@@ -1,0 +1,13 @@
+.blog-wrapper {
+  min-height: calc(100vh - 10rem);
+  min-width: 80ch;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.blog-wrapper > h2 {
+  font-size: 2rem;
+  text-align: center;
+}

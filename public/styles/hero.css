@@ -1,0 +1,43 @@
+.hero {
+  text-align: center;
+  display: grid;
+  gap: 2rem;
+}
+.hero__content h1 {
+  font-size: 3.5rem;
+
+  background: linear-gradient(-45deg, #6355a4, #6355a4, #e89a3e, #e89a3e);
+  background-size: 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animated_text 10s ease-in-out infinite;
+  -moz-animation: animated_text 10s ease-in-out infinite;
+  -webkit-animation: animated_text 10s ease-in-out infinite;
+}
+@keyframes animated_text {
+  0% {
+    background-position: 0px 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0px 50%;
+  }
+}
+.hero__content p {
+  font-size: 1.25rem;
+  margin-inline: auto;
+}
+.hero__buttons a {
+  min-width: 20ch;
+  display: inline-block;
+  padding-block: 0.75rem;
+  margin-inline: 1rem;
+  background-color: #fff;
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 10px;
+}
